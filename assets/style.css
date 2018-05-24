@@ -20,3 +20,13 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.legend {
+  position: absolute;
+  /* height:500px; */
+  /* width:200px; */
+  bottom: 0px;
+  left: 10px;
+  /* background-color: white; */
+  z-index: 100;
+}

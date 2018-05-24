@@ -10,6 +10,7 @@ let Sheets = function (opts) {
     //alert(url)
 
 
+
     this.getData = (callback) => {
         fetch(url)
           .then(blob => blob.text())
